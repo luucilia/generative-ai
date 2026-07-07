@@ -1,0 +1,16 @@
+name: ai-env
+
+channels:
+  - defaults
+  - microsoft
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - openai
+  - python-dotenv
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+      - azure-ai-ml
